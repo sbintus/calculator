@@ -74,3 +74,30 @@ docker run -p 3000:3000 calculator-api
 ## License
 MIT
 
+
+## Usage Example
+
+Example using curl:
+```sh
+curl -X POST http://localhost:3000/add -H "Content-Type: application/json" -d '{"a": 10, "b": 5}'
+```
+
+## API Response Example
+```json
+{
+	"result": 15
+}
+```
+
+## Environment Variables
+
+- `PORT`: Port number for the server (default: 3000)
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements and bug fixes.
+
+## Contact
+
+For questions or support, please contact the maintainer at [your-email@example.com].
+
